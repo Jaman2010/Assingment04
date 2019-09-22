@@ -1,0 +1,261 @@
+body{
+
+margin: 0;
+}
+
+header{
+
+background: #f3f3f3;
+}
+
+.container{
+
+width: 1300px;
+
+margin: 0 auto;
+
+overflow: hidden;
+}
+
+.logo{
+
+width: 20%;
+
+float: left;
+
+padding: 10px 0px;
+}
+
+.logo img{
+
+width: 228px;
+}
+
+nav{
+
+width: 80%;
+
+float: left;
+}
+
+nav ul{
+
+margin: 0;
+}
+
+nav ul li{
+
+list-style: none;
+}
+
+nav ul li a{
+	
+text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    float: right;
+    padding: 28px 0px 28px 28px;
+    color: #194358;
+    font-weight: 400;
+    font-family: poppins;
+}
+
+/*Slide Image Section Starts*/
+
+
+.slide img{
+	max-width: 100%;
+
+}
+
+.banner-text{
+
+}
+
+.quote{
+	position: absolute;
+    left: 32%;
+    bottom: -55%;
+    font-family: poppins;
+    font-size: 100px;
+    color: white;
+}
+
+/********* Features Section Strts *********/
+
+.our-services{
+	
+width: 250px;
+	
+height: 50px;
+	
+background: #2f88ca;
+	
+position: relative;
+	
+margin: 40px auto;
+	
+border-radius: 5px;
+	
+box-shadow: 0px 4px 10px #b4b4cc;
+}
+.our-services h3{
+
+text-align: center;
+
+padding: 11px;
+
+color: white;
+
+font-family: poppins;
+
+font-weight: 500;
+}
+
+.features-section{
+
+margin: 100px auto;
+}
+
+
+.feature{
+
+width: 33.33%;
+
+float: left;
+
+padding: 10px;
+
+box-sizing: border-box;
+}
+
+.feature h2{
+
+font-size: 20px;
+
+font-family: poppins;
+
+font-weight: 500;
+
+color: #1b88ca;
+
+margin: 0;
+
+/* padding: 5px 20px; */
+}
+
+.feature p{
+
+font-family: poppins;
+
+font-weight: 300;
+
+font-size: 14px;
+
+text-align: justify;
+
+padding: 15px 0px;
+
+margin: 0;
+}
+
+.bg-color{
+	
+background: #f3f3f3;
+	
+padding: 20px;
+	
+box-shadow: 0px 0px 13px #f3f3f3;
+	
+border-radius: 7px;
+}
+
+/*Portfolio Section Start*/
+
+.portfolio-section{
+
+margin: 100px auto;
+}
+
+.our-portfolio{
+
+width: 200px;
+
+height: 50px;
+
+margin: 40px auto;
+
+background: #1b88ca;
+
+position: relative;
+
+border-radius: 5px;
+
+box-shadow: 0px 4px 10px #b4b4cc;
+}
+
+.our-portfolio h3{
+	
+/* margin: auto; */
+	
+text-align: center;
+	
+padding: 11px;
+	
+font-family: poppins;
+	
+color: white;
+	
+font-weight: 500;
+}
+.portfolio{
+
+width: 25%;
+
+float: left;
+
+box-sizing: border-box;
+
+padding: 0px;
+
+border-radius: -7px;
+}
+
+.port-1{
+
+margin: 10px;
+
+box-sizing: border-box;
+}
+
+.port-image{
+	
+padding: 3px 5px;
+}
+.port-image img{
+	
+max-width: 100%;
+	
+border-radius: 0px;
+	
+height: 250px;
+}                                            
+
+
+/**Fotter CSS**/
+
+.footer-bg{
+
+background: #1b88ca;
+
+margin: 40px 0px 0px;
+}
+
+.copyright h5{
+	padding: 15px;
+	text-align: center;
+	color: white;
+	font-family:  poppins;
+	font-weight: 300;
+	margin: 4px auto;
+}
